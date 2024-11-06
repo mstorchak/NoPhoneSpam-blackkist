@@ -1,5 +1,5 @@
-SRC=NoPhoneSpam_blacklist.txt
-DST=~/Sync/$(SRC)
+SRC=blacklist.txt
+DST=~/Sync/NoPhoneSpam_blacklist.txt
 
 $(DST): $(SRC)
 	cp -v $(SRC) $(DST)
